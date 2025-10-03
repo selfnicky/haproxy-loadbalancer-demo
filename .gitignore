@@ -1,0 +1,21 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.terraform.lock.hcl
+terraform.tfstate.d/
+
+# SSH keys
+*.pem
+*.ppk
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
